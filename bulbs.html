@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main" id="main">
+    <div class="div-1">
+        <div>
+    <button onclick="green()" class="buttons bt-g">Turn Green</button>
+        </div>
+        <div class="Default">
+            <button onclick="off()" class="buttons">Default</button>
+            <img src="/light/bulb.png" id="bulb" alt="">
+            <button onclick="red()" class="buttons bt-r">Turn Red</button>
+        </div>
+    <div>
+    <button onclick="blue()" class="buttons bt-b">Turn Blue</button>
+    </div>
+    </div>   
+    <div class="div-2">
+        <button onclick="state()" class="buttons"> Turn Off</button>
+        <img src="/light/simple.png" id="img-2" alt="">
+        <button onclick="on()" class="buttons bt-y">Turn On</button>
+        
+    </div>
+</div>
+</body>
+    <script>
+        function green() {
+            document.getElementById('bulb').src ='/light/greenbulb.png';
+        }
+        function off() {
+            document.getElementById('bulb').src = '/light/bulb.png';
+        }
+        function blue(params) {
+            document.getElementById('bulb').src = '/light/bluebulb (1).png';
+        }
+        function red() {
+            document.getElementById('bulb').src = '/light/light-bulb_10952279.png';
+        }
+        function state() {
+            document.getElementById('img-2').src = '/light/simple.png';
+        }
+        function on() {
+            document.getElementById('img-2').src = '/light/lig.png';
+        }
+    </script>
+</html>
