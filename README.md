@@ -32,7 +32,7 @@ An interactive mini-project built with **HTML**, **CSS**, and **JavaScript**. A 
 
 1. Clone this repo:
    ```bash
-   git clone 
+   git clone https://github.com/moeed-anwar/bulb-color-changer.git
 Open index.html in your browser.
 
 No build tools or setup required.
